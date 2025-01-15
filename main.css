@@ -1,0 +1,125 @@
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+  min-height: 100vh;
+  background-color: rgb(33, 31, 31);
+}
+header {
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+  width: 100%;
+  max-height: 15%;
+  background-color: rgb(52, 23, 145);
+  padding-right: 2rem;
+}
+.logo {
+  width: 15%;
+  border-radius: 50%;
+
+  height: 90%;
+  width: auto;
+  margin-left: 0.2rem;
+  margin-top: 0.15rem;
+}
+.main {
+  width: 45%;
+  font-size: clamp(0.2rem, 2vw, 1rem);
+
+  margin: auto 20%;
+}
+.main > h3 {
+  color: rgb(240, 165, 68);
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+}
+
+.icons > img {
+  height: 35%;
+  width: auto;
+  margin: 0.2rem;
+}
+nav {
+  height: 2rem;
+  width: 100vw;
+  background-color: rgb(183, 143, 217);
+  margin-top: -17px;
+}
+ul {
+  display: flex;
+  -ms-flex-direction: row;
+}
+li {
+  color: rgb(70, 12, 125);
+  list-style-type: none;
+  margin-top: 0.4rem;
+  margin-left: 0.5rem;
+  padding-left: 0.3rem;
+  border-left: 1px solid purple;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2rem;
+  background-color: rgb(52, 23, 145);
+  color: antiquewhite;
+  margin-bottom: 0;
+  position: absolute;
+  width: 100vw;
+}
+span {
+  color: green;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.form-container {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  width: 80vw;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+  width: 100%;
+  padding: 1.5vw;
+}
+#result {
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  width: 80vw;
+  border: 1px solid brown;
+  border-radius: 0 12px 0 12px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: chocolate;
+  background-color: bisque;
+}
+h3 {
+  text-align: center;
+  color: rgb(162, 30, 147);
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+form > label,
+p {
+  color: antiquewhite;
+}
+input {
+  margin: 2em;
+}
+button {
+  margin: 1rem;
+}
