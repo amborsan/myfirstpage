@@ -3,6 +3,7 @@ body {
   font-size: 18px;
   min-height: 100vh;
   background-color: rgb(33, 31, 31);
+  width: 1200px;
 }
 header {
   display: flex;
@@ -89,13 +90,13 @@ main {
   align-items: center;
   justify-content: center;
   height: 85vh;
-  width: 100%;
+  width: 80%;
   padding: 1.5vw;
 }
 #result {
   margin-bottom: 2rem;
   padding: 0.5rem;
-  width: 80vw;
+  width: 80%;
   border: 1px solid brown;
   border-radius: 0 12px 0 12px;
   max-width: fit-content;
