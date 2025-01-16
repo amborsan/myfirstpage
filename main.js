@@ -125,7 +125,7 @@ start.addEventListener("click", (e) => {
           if (tVal === "Good") {
             result.innerHTML +=
               "<br />" +
-              ` Amaising! <span>${nameValue}</span>! , I am so glad that you like my page, Thanks a lot!`;
+              ` Amasing! <span>${nameValue}</span>! , I am so glad that you like my page, Thanks a lot!`;
             tContainer.style.display = "none";
           }
           if (tVal === "Okay") {
