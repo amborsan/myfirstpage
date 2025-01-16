@@ -1,6 +1,6 @@
 body {
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 1.2em;
   min-height: 100vh;
   background-color: rgb(33, 31, 31);
   width: 1200px;
@@ -121,10 +121,16 @@ p {
 }
 input {
   margin: 2em;
+  font-size: 1.5em;
 }
 button {
   margin: 1rem;
+  font-size: 1.5em;
 }
 #start {
   margin-left: 45%;
+}
+option {
+  font-size: 1.5em;
+  padding: 0.3rem;
 }
