@@ -89,6 +89,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  align-items: center;
   height: 85vh;
   width: 80%;
   padding: 1.5vw;
@@ -123,4 +124,7 @@ input {
 }
 button {
   margin: 1rem;
+}
+#start {
+  margin-left: 45%;
 }
